@@ -1,0 +1,272 @@
+site_name: 马原
+nav: 
+    - 概述:
+        - 概述/index.md
+        - 概述/概念.md
+        - 概述/思维导图.md
+        - 概述/思维.md
+    - 世界的物质性(马哲):
+        - 世界的物质性(马哲)/index.md
+        - 世界的物质性(马哲)/世界多样性&物质统一性.md
+        - 世界的物质性(马哲)/事物的联系&发展.md
+        - 世界的物质性(马哲)/唯物辩证法.md
+    - 实践与认识(马哲):
+        - 实践与认识(马哲)/index.md
+        - 实践与认识(马哲)/实践.md
+        - 实践与认识(马哲)/实践和认识的关系.md
+        - 实践与认识(马哲)/真理.md
+    - 人类社会(马哲):
+        - 人类社会(马哲)/index.md
+        - 人类社会(马哲)/社会基本矛盾&&运动规律.md
+        - 人类社会(马哲)/社会发展的动力.md
+        - 人类社会(马哲)/人民群众是历史的主体和历史的创造者.md
+    - 揭露资本家剥削的实质(马政经):
+        - 揭露资本家剥削的实质(马政经)/index.md
+        - 揭露资本家剥削的实质(马政经)/马克思政治经济学的创立.md
+        - 揭露资本家剥削的实质(马政经)/商品与货币.md
+        - 揭露资本家剥削的实质(马政经)/资本主义经济制度.md
+        - 揭露资本家剥削的实质(马政经)/经济全球化.md
+    - 社会主义市场经济(马政经):
+        - 社会主义市场经济(马政经)/index.md
+        - 社会主义市场经济(马政经)/市场经济.md
+        - 社会主义市场经济(马政经)/基本经济制度.md
+        - 社会主义市场经济(马政经)/分配制度.md
+        - 社会主义市场经济(马政经)/社会保障制度.md
+        - 社会主义市场经济(马政经)/国企改革.md
+        - 社会主义市场经济(马政经)/宏观调控.md
+    - 社会主义的发展及其规律(科社):
+        - 社会主义的发展及其规律(科社)/index.md
+        - 社会主义的发展及其规律(科社)/历史进程.md
+        - 社会主义的发展及其规律(科社)/社会主义发展道路多样性的原因.md
+    - 共产主义(科社):
+        - 共产主义(科社)/index.md
+        - 共产主义(科社)/共产主义的特征.md
+        - 共产主义(科社)/必然趋势.md
+        
+extra_css:
+    - res/extra.css
+extra_javascript:
+    - res/extra.js
+
+    - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+
+    - https://polyfill.io/v3/polyfill.min.js?features=es6
+    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+copyright: Copyright &copy; 2022 - 2023 travis
+
+# repo_url: @
+# repo_name: @
+
+theme:
+    name: material
+    # custom_dir: overrides
+
+    palette:
+        - media: "(prefers-color-scheme)"
+          primary: red
+          accent: red
+          toggle:
+            icon: material/brightness-auto
+            name: 切换到暗模式
+        - media: "(prefers-color-scheme: light)"
+          primary: green
+          accent: green
+          scheme: default 
+          toggle:
+            icon: material/brightness-7
+            name: 切换到默认模式
+        - media: "(prefers-color-scheme: dark)"
+          primary: blue
+          accent: blue
+          scheme: slate
+          toggle:
+            icon: material/brightness-4
+            name: 切换到亮模式
+
+    font:
+        text: Roboto
+        code: Roboto Mono
+
+    language: zh
+    direction: ltr
+
+    logo: https://pic.peo.pw/a/2023/01/12/63bfb934b1b06.png
+    favicon: https://pic.peo.pw/a/2023/01/12/63bfb934b1b06.png
+    icon:
+        logo: octicons/heart-fill-24
+
+        repo: fontawesome/brands/github
+        edit: material/pencil
+        view: material/eye
+
+
+        admonition:
+            note: fontawesome/solid/note-sticky
+            abstract: fontawesome/solid/book
+            info: fontawesome/solid/circle-info
+            tip: fontawesome/solid/bullhorn
+            success: fontawesome/solid/check
+            question: fontawesome/solid/circle-question
+            warning: fontawesome/solid/triangle-exclamation
+            failure: fontawesome/solid/bomb
+            danger: fontawesome/solid/skull
+            bug: fontawesome/solid/robot
+            example: fontawesome/solid/flask
+            quote: fontawesome/solid/quote-left
+
+
+
+
+    features:
+        - navigation.instant
+        - navigation.tracking
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - navigation.sections
+        # - navigation.expand
+        - navigation.prune
+        - navigation.indexes
+        - toc.follow
+        # - toc.integrate
+        - navigation.top
+
+        - search.suggest
+        - search.highlight
+        - search.share
+
+        - header.autohide
+
+        - navigation.footer
+
+        - content.action.edit
+        - content.action.view
+
+        - content.code.copy
+        - content.code.annotate
+
+        - content.tooltips
+
+
+extra:
+    alternate:
+        - name: MindMaster
+          link: https://mm.edrawsoft.cn/template/40598 
+          lang: en
+        - name: 题库
+          link: https://zhuanlan.zhihu.com/p/530911850
+          lang: zh
+    homepage: /
+
+    #consent:
+    #    title: cookie
+    #    description:    >-
+    #        sdd
+    #    cookies:
+    #        analytics:
+    #            github
+
+
+    social:
+        - icon: fontawesome/brands/github
+          link: 链接url地址
+          name: 标识名
+        - icon: fontawesome/brands/docker
+          link: 链接url地址
+          name: 标识名
+    generator: false
+
+
+plugins:
+    - search:
+        lang:
+            - en
+            - ja
+        # '[\s\-,:!=\[\]]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+        separator: '[\s\-\.]+'
+        jieba_dict: res/dict.txt
+        jieba_dict_user: res/user_dict.txt
+    - search:
+        lang:
+            - en
+        jieba_dict: dict/dict.txt
+        separator: '[\s\-\.]+'
+    # - typeset
+
+    - glightbox
+
+markdown_extensions:
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+
+    - attr_list
+    - md_in_html
+    - pymdownx.superfences
+
+    - attr_list
+
+    - pymdownx.highlight:
+        anchor_linenums: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
+
+    - pymdownx.superfences
+    - pymdownx.tabbed:
+        alternate_style: true
+    #- pymdownx.tabbed:
+    #    slugify: !!python/object/apply:pymdownx.slugs.slugify
+    #        kwds:
+    #            case: lower
+
+    # - content.tabs.link
+
+
+    - tables
+    - pymdownx.superfences:
+        custom_fences:
+            - name: mermaid
+              class: mermaid
+              format: !!python/name:pymdownx.superfences.fence_code_format
+    - footnotes
+
+    - pymdownx.critic
+    - pymdownx.caret
+    - pymdownx.keys
+    - pymdownx.mark
+    - pymdownx.tilde
+
+    - attr_list
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+
+
+    - attr_list
+    - md_in_html
+
+    - def_list
+    - pymdownx.tasklist:
+        custom_checkbox: true
+
+    - pymdownx.arithmatex:
+        generic: true
+
+    - abbr
+    - attr_list
+    - pymdownx.snippets
+    - pymdownx.snippets:
+        auto_append:
+            - includes/abbr.md
+            
+    - toc:
+        permalink: 👈👈👈
+        title: 目录
+        permalink_title: Anchor link to this section for reference
+        
+        slugify: !!python/object/apply:pymdownx.slugs.slugify
+            kwds:
+              case: lower
+        toc_depth: 3
+
